@@ -28,3 +28,17 @@
  *   c. The tests are CASE sensitive, so you MUST console.log('Good Night!') with
  *      the exact case.
  */
+
+if hour < 9 {
+greeting = "Good morning"
+} else if (hour < 24) {
+  greeting = "Good night"
+} 
+
+if (hour < 11 ) {
+  greeting = "Good morning" 
+} else if (hour < 14) {
+  greeting = "Good afternoon"
+} else if (hour < 20) {
+  greeting = "Good evening"
+}
